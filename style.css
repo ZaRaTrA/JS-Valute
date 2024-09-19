@@ -1,0 +1,44 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Caveat", cursive;
+  font-style: normal;
+}
+.mainDiv {
+  display: flex;
+  flex-direction: column;
+}
+.headerDiv {
+  width: 100vw;
+  height: 20vh;
+  background-color: rgb(221, 233, 63);
+  font-size: 60px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-bottom: 30px;
+}
+.currency-box{
+    font-size: 25px;
+}
+.currency-row{
+    border: 1px solid rgb(102, 101, 101);
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    border-radius: 6px 6px 0 0;
+    width: fit-content;
+    padding-right: 10px;
+}
+.currency-info{
+    margin-right: 10px;
+}
+#usd{
+    margin-right: 7px;
+}
+#eur{
+    margin-right: 7px;
+}
+#aed{
+    margin-right: 7px;
+}
